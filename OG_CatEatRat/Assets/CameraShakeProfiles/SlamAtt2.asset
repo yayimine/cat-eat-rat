@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd9fa0b76f91d44a9d3b76c5fb335d9, type: 3}
+  m_Name: SlamAtt2
+  m_EditorClassIdentifier: Assembly-CSharp::ScreenShakeProfile
+  impactTime: 0.4
+  impactForce: 1
+  defaultVelocity: {x: -1, y: -1, z: 0}
+  impulseCureve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.11388779
+      value: 0.9523926
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.081017286
+      value: -0.32698822
+      inSlope: -1.205205
+      outSlope: -1.205205
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2611744
+      value: 0.60829043
+      inSlope: 1.0476123
+      outSlope: 1.0476123
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.47760144
+      value: -0.11322297
+      inSlope: -0.8544218
+      outSlope: -0.8544218
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6566365
+      value: 0.481672
+      inSlope: -0.9317112
+      outSlope: -0.9317112
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9987683
+      value: 0.015532494
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  listenerAmplitude: 4
+  listenerFrequency: 2
+  listenerDurantion: 1

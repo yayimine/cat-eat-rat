@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3268988190871036206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7250123181187520048}
+  - component: {fileID: 1991976521105667996}
+  m_Layer: 0
+  m_Name: InputManagerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7250123181187520048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268988190871036206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.85596, y: 4.52406, z: -1.71898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1991976521105667996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268988190871036206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b508ddc7e590e4d238ea6a9b79457455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InputManager
+  CatMove: {fileID: 5674717884980791356, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  CatTurn: {fileID: 7392273108640826211, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  CatJump: {fileID: -6878317954518272675, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  CatAttack: {fileID: 3034943192759280343, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  RatMove: {fileID: -3070587595219122446, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  RatTurn: {fileID: -3283804596257346840, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  RatJump: {fileID: -2803280601751509821, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  RatPickUp: {fileID: -8837703038583585574, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
+  RatBlast: {fileID: -5054283979116963841, guid: 3a8f6e2098f7046b4aa2b7afd435eb11, type: 3}
